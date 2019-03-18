@@ -10,6 +10,7 @@ import SecondHomePart from '@/components/HomeComponents/SecondHomePart'
 
 Vue.use(Router)
 
+//import Layout from './views/layout/Layout'
 export default new Router({
   routes: [
     {

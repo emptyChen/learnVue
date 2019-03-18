@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <mynavbar></mynavbar>
+    <!--<mynavbar></mynavbar>-->
     <img src="./assets/logo.png" />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import mynavbar from './components/AppComponents/Navbar.vue'
+//import mynavbar from './components/AppComponents/Navbar.vue'
 export default {
   name: 'app'
 }
@@ -21,5 +21,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#app .app-ul{
+  list-style: none;
 }
 </style>
